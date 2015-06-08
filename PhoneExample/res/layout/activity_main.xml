@@ -1,0 +1,86 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="6" >
+
+    <TextView
+        android:id="@+id/TV_result_main"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="" />
+
+    <Button
+        android:id="@+id/BTN_one_main"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/BTN_two_main"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/BTN_three_main"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/BTN_delete_main"
+        android:layout_height="200dp"
+        android:layout_rowSpan="4"
+        android:text="del" />
+
+    <Button
+        android:id="@+id/BTN_four_main"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/BTN_five_main"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/BTN_six_main"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/BTN_seven_main"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/BTN_eight_main"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/BTN_nine_main"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/BTN_xing_main"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/BTN_zero_main"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/BTN_jing_main"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_gravity="left"
+        android:text="#" />
+
+    <Button
+        android:id="@+id/BTN_deng_main"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:text="拨打" />
+
+</GridLayout>
